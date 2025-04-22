@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/autoplay";
+
+@theme {
+  --color-primary: #1c1c1c;
+  --color-secondary: #f7f7f5;
+  --color-brand: #156cf3;
+}
+
+@layer utilities {
+  .heading-1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 90%;
+    text-transform: uppercase;
+  }
+
+  .heading-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .heading-3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  line-height: 150%;
+}
+
+.link-hover {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.link-hover .text-top,
+.link-hover .text-bottom {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.link-hover .text-bottom {
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.link-hover:hover .text-top {
+  transform: translateY(-100%);
+}
+
+.link-hover:hover .text-bottom {
+  transform: translateY(-100%);
+}
+
+.link-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.link-hover:hover::after {
+  transform: scaleX(1);
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
