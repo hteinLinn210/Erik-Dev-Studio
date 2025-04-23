@@ -13,9 +13,7 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Tailwind CSS",
-  "GSAP",
 ];
 
 export const AboutMe = () => {
@@ -87,7 +85,7 @@ export const AboutMe = () => {
                 hello!
               </h3>
               <div className="h-auto w-full">
-                <img src={memoji} alt="Memoji" />
+                <img src={memoji} alt="Memoji of Erik" />
               </div>
               <p className="text-sm md:text-base">
                 I'm open to opportunities to build and optimize innovative

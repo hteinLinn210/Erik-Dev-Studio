@@ -10,6 +10,7 @@ export const projectsInfo = [
     description:
       "Built a landing page for SortStay, a platform connecting hosts with those seeking shelter. Designed in Figma and developed in Webflow for a clear, impactful user experience.",
     image: img1,
+    alt: "A white bed with pillows showing comfort feeling",
     link: "https://www.sortstay.com/",
   },
   {
@@ -18,6 +19,7 @@ export const projectsInfo = [
     description:
       "Designed the eK Learn website, a platform supporting farmer training programs. Chose brand-aligned colors and created an accessible, user-friendly layout for a smooth experience.",
     image: img2,
+    alt: "Two local farmers looking at the phone",
     link: "https://www.behance.net/gallery/221191459/eK-Learn-Website-Design-Figma-UIUX/modules/1261880857",
   },
   {
@@ -26,6 +28,7 @@ export const projectsInfo = [
     description:
       "Built to showcase responsive design, fluid animations, and dynamic color gradient hover effects using Webflow, following the Finsweet Client-First methodology for efficient, scalable development.",
     image: img3,
+    alt: "A screenshot of the website",
     link: "https://productvideoexamples-reimagined.webflow.io/",
   },
   {
@@ -34,6 +37,7 @@ export const projectsInfo = [
     description:
       "Built to showcase skills in custom animations, responsive design, and sticky elements using Webflow, following the Finsweet Client-First approach for clean and scalable development.",
     image: img4,
+    alt: "A screenshot of the website",
     link: "https://andyhooke-reimagined.webflow.io/",
   },
 ];

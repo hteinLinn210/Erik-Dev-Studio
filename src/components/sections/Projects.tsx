@@ -88,7 +88,7 @@ export const Projects = () => {
                   <img
                     className="size-full object-cover object-top"
                     src={project.image}
-                    alt=""
+                    alt={project.alt}
                   />
                 </motion.div>
               </div>
