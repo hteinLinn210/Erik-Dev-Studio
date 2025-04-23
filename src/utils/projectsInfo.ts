@@ -23,13 +23,13 @@ export const projectsInfo = [
     link: "https://www.behance.net/gallery/221191459/eK-Learn-Website-Design-Figma-UIUX/modules/1261880857",
   },
   {
-    title: "product video example",
-    type: "cloned project",
+    title: "Old Portfolio",
+    type: "webflow project",
     description:
-      "Built to showcase responsive design, fluid animations, and dynamic color gradient hover effects using Webflow, following the Finsweet Client-First methodology for efficient, scalable development.",
+      "Built my old portfolio using Webflow and the Lumos framework, showcasing clean layout, smooth interactions, and responsive design.",
     image: img3,
     alt: "A screenshot of the website",
-    link: "https://productvideoexamples-reimagined.webflow.io/",
+    link: "https://erikdev.webflow.io/",
   },
   {
     title: "andy hooke",
