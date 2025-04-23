@@ -13,7 +13,7 @@ function App() {
         duration: 1.5,
       }}
     >
-      <Layout title="Erik Dev Studio">
+      <Layout>
         <Hero />
         <AboutMe />
         <Projects />
