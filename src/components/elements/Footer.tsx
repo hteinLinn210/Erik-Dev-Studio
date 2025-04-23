@@ -37,19 +37,22 @@ export const Footer = () => {
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/hteinlinn.erikk/"
+                    target="blank_"
                     className="text-primary/70 hover:text-primary max-w-min transition-all duration-100 ease-in-out"
                   >
                     Instagram
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/htein-linn-erik-0950b01bb"
+                    target="blank_"
                     className="text-primary/70 hover:text-primary transition-all duration-100 ease-in-out"
                   >
                     Linked In
                   </a>
                   <a
-                    href="#"
+                    href="https://www.behance.net/hteinlinn210"
+                    target="blank_"
                     className="text-primary/70 hover:text-primary transition-all duration-100 ease-in-out"
                   >
                     Behance
@@ -93,10 +96,7 @@ export const Footer = () => {
               </h4>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
-                  <a
-                    href="#"
-                    className="text-primary/70 hover:text-primary max-w-min transition-all duration-100 ease-in-out"
-                  >
+                  <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">
                     +66626366765
                   </a>
                 </li>
@@ -109,10 +109,7 @@ export const Footer = () => {
               </h4>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
-                  <a
-                    href="#"
-                    className="text-primary/70 hover:text-primary max-w-min transition-all duration-100 ease-in-out"
-                  >
+                  <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">
                     erik102.hteinlinn@gmail.com
                   </a>
                 </li>

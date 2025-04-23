@@ -9,6 +9,11 @@
   --color-brand: #156cf3;
 }
 
+html.dark {
+  --color-primary: #f7f7f5;
+  --color-secondary: #1c1c1c;
+}
+
 @layer utilities {
   .heading-1 {
     font-family: "Raleway", sans-serif;

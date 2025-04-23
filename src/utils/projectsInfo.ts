@@ -8,15 +8,17 @@ export const projectsInfo = [
     title: "sortstay",
     type: "web design & Development",
     description:
-      "Developed a landing page website from scratch for SortStay, a platform designed to connect property hosts with individuals in need of shelter, making a positive impact on the community. Crafted the initial design in Figma and implemented the complete build using Webflow, ensuring a clear and engaging presentation of essential information.",
+      "Built a landing page for SortStay, a platform connecting hosts with those seeking shelter. Designed in Figma and developed in Webflow for a clear, impactful user experience.",
     image: img1,
+    link: "https://www.sortstay.com/",
   },
   {
     title: "eK Learn",
     type: "web design",
     description:
-      "Designed the website for eK Learn, a human-centric digital platform aimed at providing a Customized Training Ecosystem for private organizations, NGOs, and government bodies to support farmers. Selected brand-matching colors and created an easy-to-navigate layout that enhances user accessibility and delivers a seamless digital experience.",
+      "Designed the eK Learn website, a platform supporting farmer training programs. Chose brand-aligned colors and created an accessible, user-friendly layout for a smooth experience.",
     image: img2,
+    link: "https://www.behance.net/gallery/221191459/eK-Learn-Website-Design-Figma-UIUX/modules/1261880857",
   },
   {
     title: "product video example",
@@ -24,6 +26,7 @@ export const projectsInfo = [
     description:
       "Built to showcase responsive design, fluid animations, and dynamic color gradient hover effects using Webflow, following the Finsweet Client-First methodology for efficient, scalable development.",
     image: img3,
+    link: "https://productvideoexamples-reimagined.webflow.io/",
   },
   {
     title: "andy hooke",
@@ -31,5 +34,6 @@ export const projectsInfo = [
     description:
       "Built to showcase skills in custom animations, responsive design, and sticky elements using Webflow, following the Finsweet Client-First approach for clean and scalable development.",
     image: img4,
+    link: "https://andyhooke-reimagined.webflow.io/",
   },
 ];

@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { projectsInfo } from "../../utils/projectsInfo";
 import { motion } from "motion/react";
+import { BtnLinkDark } from "../shared/BtnLinkDark";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -71,7 +72,10 @@ export const Projects = () => {
                     <h4 className="heading-3 text-secondary/40 sm:text-xl md:text-2xl lg:text-3xl">
                       {project.type}
                     </h4>
-                    <p className="text-secondary/70">{project.description}</p>
+                    <p className="text-secondary/70 mb-4 md:mb-8">
+                      {project.description}
+                    </p>
+                    <BtnLinkDark href={project.link}>Check it out</BtnLinkDark>
                   </div>
                 </motion.div>
                 <motion.div
