@@ -42,7 +42,7 @@ export const NavBar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden items-center gap-x-12 md:flex">
+          <ul className="text-primary hidden items-center gap-x-12 text-sm md:flex">
             {navItems.map((item, key) => (
               <NavItem
                 href={item.href}
@@ -51,12 +51,14 @@ export const NavBar = () => {
                 toggleMenu={toggleMenu}
               />
             ))}
-            <BtnLink href="#contact">Contact Me</BtnLink>
+            <li>
+              <BtnLink href="#contact">Contact Me</BtnLink>
+            </li>
           </ul>
 
           {/* Mobile Menu Icon */}
           <div className="z-50 md:hidden">
-            <button onClick={toggleMenu}>
+            <button onClick={toggleMenu} role="button" aria-label="Open menu">
               <svg
                 ref={menuIconRef}
                 width="60"

@@ -24,16 +24,16 @@ export const Footer = () => {
             <h2 className="heading-2 flex-1 text-2xl sm:text-[2rem] md:text-[3rem] lg:text-[4.5rem]">
               Let's Talk
             </h2>
-            <BtnLink href="#">Get In Touch</BtnLink>
+            <BtnLink>Get In Touch</BtnLink>
           </div>
 
           <div className="bg-primary my-8 h-0.5 w-full"></div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8 lg:grid-cols-4">
             <div>
-              <h4 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
+              <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 social
-              </h4>
+              </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
                   <a
@@ -62,9 +62,9 @@ export const Footer = () => {
             </div>
 
             <div>
-              <h4 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
+              <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 Links
-              </h4>
+              </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
                   {navItems.map((item, key) => {
@@ -91,9 +91,9 @@ export const Footer = () => {
             </div>
 
             <div>
-              <h4 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
+              <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 phone
-              </h4>
+              </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
                   <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">
@@ -104,9 +104,9 @@ export const Footer = () => {
             </div>
 
             <div>
-              <h4 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
+              <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 Email
-              </h4>
+              </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
                   <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">

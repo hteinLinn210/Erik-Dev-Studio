@@ -20,7 +20,7 @@ export const NavItem = ({
   };
 
   return (
-    <li className="text-primary text-sm">
+    <li>
       <a
         className={`link-hover cursor-pointer ${className}`}
         onClick={() => {

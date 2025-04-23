@@ -1,7 +1,7 @@
 import { gsap } from "gsap/gsap-core";
 
 interface BtnLinkProps {
-  href: string;
+  href?: string;
   children: React.ReactNode;
 }
 
