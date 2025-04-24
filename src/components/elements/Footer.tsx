@@ -57,6 +57,13 @@ export const Footer = () => {
                   >
                     Behance
                   </a>
+                  <a
+                    href="https://github.com/hteinLinn210"
+                    target="blank_"
+                    className="text-primary/70 hover:text-primary transition-all duration-100 ease-in-out"
+                  >
+                    Github
+                  </a>
                 </li>
               </ul>
             </div>
