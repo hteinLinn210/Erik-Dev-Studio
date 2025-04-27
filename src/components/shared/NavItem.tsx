@@ -22,8 +22,10 @@ export const NavItem = ({
   return (
     <li>
       <a
+        href={href}
         className={`link-hover cursor-pointer ${className}`}
-        onClick={() => {
+        onClick={(e) => {
+          e.preventDefault();
           toggleMenu();
           scrollTo();
         }}

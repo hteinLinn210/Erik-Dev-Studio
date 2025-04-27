@@ -12,8 +12,10 @@ export const BtnLink = ({ href, children }: BtnLinkProps) => {
 
   return (
     <a
-      className="text-primary border-primary hover:bg-primary cursor-pointer rounded-full border bg-transparent px-6 py-2 text-sm font-semibold transition-all duration-200 ease-in-out hover:text-white lg:px-7 lg:py-3"
-      onClick={() => {
+      href={href}
+      className="text-primary border-primary hover:bg-primary focus:bg-primary cursor-pointer rounded-full border bg-transparent px-6 py-2 text-sm font-semibold transition-all duration-200 ease-in-out hover:text-white focus:text-white lg:px-7 lg:py-3"
+      onClick={(e) => {
+        e.preventDefault();
         scrollTo();
       }}
     >

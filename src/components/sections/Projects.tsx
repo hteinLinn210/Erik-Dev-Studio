@@ -52,6 +52,7 @@ export const Projects = () => {
           <div
             key={index}
             className="panel bg-primary text-secondary h-screen w-full"
+            tabIndex={0}
           >
             <Container className="h-full">
               <div className="flex h-full flex-col items-center justify-between gap-8 overflow-hidden lg:flex-row">

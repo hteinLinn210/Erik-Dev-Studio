@@ -34,8 +34,8 @@ export const Footer = () => {
               <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 social
               </h3>
-              <ul className="mt-4">
-                <li className="flex flex-col gap-2">
+              <ul className="mt-4 flex flex-col gap-2">
+                <li>
                   <a
                     href="https://www.instagram.com/hteinlinn.erikk/"
                     target="blank_"
@@ -43,6 +43,8 @@ export const Footer = () => {
                   >
                     Instagram
                   </a>
+                </li>
+                <li>
                   <a
                     href="https://www.linkedin.com/in/htein-linn-erik-0950b01bb"
                     target="blank_"
@@ -50,6 +52,8 @@ export const Footer = () => {
                   >
                     Linked In
                   </a>
+                </li>
+                <li>
                   <a
                     href="https://www.behance.net/hteinlinn210"
                     target="blank_"
@@ -57,6 +61,8 @@ export const Footer = () => {
                   >
                     Behance
                   </a>
+                </li>
+                <li>
                   <a
                     href="https://github.com/hteinLinn210"
                     target="blank_"
@@ -72,28 +78,29 @@ export const Footer = () => {
               <h3 className="heading-3 sm:text-xl md:text-2xl lg:text-3xl">
                 Links
               </h3>
-              <ul className="mt-4">
-                <li className="flex flex-col gap-2">
-                  {navItems.map((item, key) => {
-                    const scrollTo = () => {
-                      gsap.to(window, {
-                        duration: 1,
-                        scrollTo: { y: item.href },
-                      });
-                    };
-                    return (
+              <ul className="mt-4 flex flex-col gap-2">
+                {navItems.map((item, key) => {
+                  const scrollTo = () => {
+                    gsap.to(window, {
+                      duration: 1,
+                      scrollTo: { y: item.href },
+                    });
+                  };
+                  return (
+                    <li key={key}>
                       <a
+                        href={item.href}
                         className="text-primary/70 hover:text-primary cursor-pointer transition-all duration-100 ease-in-out"
-                        key={key}
-                        onClick={() => {
+                        onClick={(e) => {
+                          e.preventDefault();
                           scrollTo();
                         }}
                       >
                         {item.text}
                       </a>
-                    );
-                  })}
-                </li>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -103,7 +110,11 @@ export const Footer = () => {
               </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
-                  <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">
+                  <a
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out"
+                  >
                     +66626366765
                   </a>
                 </li>
@@ -116,7 +127,11 @@ export const Footer = () => {
               </h3>
               <ul className="mt-4">
                 <li className="flex flex-col gap-2">
-                  <a className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out">
+                  <a
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    className="text-primary/70 hover:text-primary max-w-min cursor-pointer transition-all duration-100 ease-in-out"
+                  >
                     erik102.hteinlinn@gmail.com
                   </a>
                 </li>
