@@ -22,14 +22,15 @@ export const Projects = () => {
         scrollTrigger: {
           trigger: panelsContainer,
           pin: true,
-          scrub: 1,
+          scrub: 0.5, // Adjusted scrub value for smoother scrolling
           snap: {
             snapTo: 1 / (panels.length - 1),
-            duration: { min: 0.1, max: 0.1 },
-            inertia: false,
+            duration: { min: 0.2, max: 0.5 }, // Increased duration for smoother snapping
+            inertia: true, // Enabled inertia for better user experience
           },
           start: "top top",
-          end: "+=" + (panelsContainer.scrollWidth - window.innerWidth),
+          end: () => "+=" + (panelsContainer.scrollWidth - window.innerWidth), // Ensures dynamic calculation
+          invalidateOnRefresh: true, // Ensures proper recalculation on refresh
         },
       });
     });
@@ -64,7 +65,9 @@ export const Projects = () => {
                   className="flex w-full shrink-0 flex-col gap-4 lg:w-1/2 lg:flex-row lg:gap-8"
                 >
                   <div>
-                    <h3 className="heading-3 text-2xl md:text-4xl lg:text-6xl">{`[0${index + 1}]`}</h3>
+                    <h3 className="heading-3 text-2xl md:text-4xl lg:text-6xl">{`[0${
+                      index + 1
+                    }]`}</h3>
                   </div>
                   <div className="space-y-1 lg:space-y-4">
                     <h3 className="heading-3 text-2xl md:text-4xl lg:text-6xl">
