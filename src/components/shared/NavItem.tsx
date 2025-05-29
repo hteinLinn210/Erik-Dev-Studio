@@ -6,7 +6,7 @@ interface NavItemProps {
   href: string;
   text: string;
   className?: string;
-  toggleMenu: () => void;
+  toggleMenu?: () => void;
 }
 
 export const NavItem = ({
