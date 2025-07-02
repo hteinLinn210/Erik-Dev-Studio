@@ -1,7 +1,6 @@
 import img1 from "/img1.jpg";
 import img2 from "/img2.jpg";
 import img3 from "/img3.jpg";
-import img4 from "/img4.jpg";
 
 export const projectsInfo = [
   {
@@ -23,20 +22,11 @@ export const projectsInfo = [
     link: "https://www.behance.net/gallery/221191459/eK-Learn-Website-Design-Figma-UIUX/modules/1261880857",
   },
   {
-    title: "Old Portfolio",
-    type: "webflow project",
-    description:
-      "Built my old portfolio using Webflow and the Lumos framework, showcasing clean layout, smooth interactions, and responsive design.",
-    image: img3,
-    alt: "A screenshot of the website",
-    link: "https://erikdev.webflow.io/",
-  },
-  {
     title: "andy hooke",
     type: "cloned project",
     description:
       "Built to showcase skills in custom animations, responsive design, and sticky elements using Webflow, following the Finsweet Client-First approach for clean and scalable development.",
-    image: img4,
+    image: img3,
     alt: "A screenshot of the website",
     link: "https://andyhooke-reimagined.webflow.io/",
   },

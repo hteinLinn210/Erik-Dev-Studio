@@ -42,7 +42,7 @@ export const Projects = () => {
     <section id="work">
       <div
         id="panels-container"
-        className="flex h-screen w-[500%] flex-nowrap overflow-hidden"
+        className="flex h-screen w-[400%] flex-nowrap overflow-hidden"
       >
         <div className="panel bg-secondary flex h-screen w-full items-center justify-center">
           <h2 className="heading-2 mb-2 text-2xl sm:mb-3 sm:text-[2rem] md:text-[3rem] lg:mb-4 lg:text-[4.5rem]">
